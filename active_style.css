@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    }
+body{
+    background-color: hsl(0, 0%, 95%)
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    color:  hsl(0, 0%, 95%);
+}
+.sedan .p{
+    font-size: 3em;
+    padding-bottom: 3em;     
+}
+.suv .p{
+    font-size: 3em;
+    padding-bottom: 15px; 
+}
+.luxury .p{
+    font-size: 3em;
+    padding-bottom: 17px; 
+}
+.whole{
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    font-family: myFirstFont;
+    font-weight: 400;
+}
+.whole .sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding:2.4em;
+    width: 100%;
+}
+.whole .suv{
+    background-color: hsl(184, 100%, 22%);
+    padding:3em;
+    width: 100%;
+}
+.whole .luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding:3em;
+    width: 100%;
+}
+.sedan .button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: hsl(31, 77%, 52%);
+}
+.suv .button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury .button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: hsl(179, 100%, 13%);
+}
+.button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%)
+}
